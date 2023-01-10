@@ -1,0 +1,22 @@
+nav {
+    height: 5rem;
+    width: 100vw;
+    background: var(--primary-color);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.nav__toggle-btn {
+    display: none;
+}
+.nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}

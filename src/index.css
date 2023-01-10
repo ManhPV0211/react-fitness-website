@@ -1,0 +1,66 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-hue: 210;
+    --gray-hue: 240;
+    --primary-color: hsl(var(--primary-hue), 100%, 50%);
+    --primary-variant-color: hsl(var(--primary-hue), 100%, 65%);
+    --secondary-color: #ffb116;
+    --gray-color-100: hsl(var(--gray-hue), 47%, 94%);
+    --gray-color-200: hsl(var(--gray-hue), 26%, 75%);
+    --gray-color-300: hsl(var(--gray-hue), 24%, 64%);
+    --gray-color-400: hsl(var(--gray-hue), 16%, 41%);
+    --gray-color-500: hsl(var(--gray-hue), 44%, 25%);
+    --gray-color-600: hsl(var(--gray-hue), 48%, 15%);
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+
+    --transition: all 400ms ease;
+}
+
+/* MAIN STYLES */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--gray-color-200);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background: var(--gray-color-600);
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    color: var(--gray-color-100);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: var(--gray-color-100);
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
