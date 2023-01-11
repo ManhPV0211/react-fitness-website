@@ -1,7 +1,14 @@
+import MainHeader from "../../components/MainHeader";
+import Programs from "../../components/Programs";
 import "./Home.css";
 
 function Home() {
-    return <section>Home</section>
+    return (
+        <>
+        <MainHeader />
+        <Programs />
+        </>
+    )
 };
 
 export default Home;

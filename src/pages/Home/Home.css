@@ -1,0 +1,65 @@
+/* HEADER */
+.main__header {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.main__header-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.main__header-left {
+    margin-top: -3rem;
+}
+
+.main__header-left h4 {
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.main__header-left p {
+    margin: 1rem 0 3rem;
+    font-size: 1.1rem;
+}
+
+.main__header-left a {
+    color: var(--gray-color-100);
+}
+
+.main__header-left img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.main__header-right {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.main__header-circle {
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(75deg, var(--secondary-color), transparent);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    filter: blur(10px);
+}
+
+.main__header-image {
+    position: absolute;
+    z-index: 2;
+}
+
+/* PROGRAMS */
