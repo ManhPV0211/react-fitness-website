@@ -1,6 +1,8 @@
+import FAQs from "../../components/FAQs";
 import MainHeader from "../../components/MainHeader";
 import Programs from "../../components/Programs";
 import Value from "../../components/Value";
+
 import "./Home.css";
 
 function Home() {
@@ -9,6 +11,7 @@ function Home() {
         <MainHeader />
         <Programs />
         <Value />
+        <FAQs />
         </>
     )
 };
