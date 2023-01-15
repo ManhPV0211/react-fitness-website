@@ -10,6 +10,7 @@ import Trainers from "./pages/Trainers/Trainers";
 import Plans from "./pages/Plans/Plans";
 import NotFound from "./pages/NotFound/NotFound";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
    return <Router>
@@ -24,6 +25,7 @@ function App() {
          <Route path="plans" element={<Plans />}/>
          <Route path="*" element={<NotFound />}/>
       </Routes>
+      <Footer />
    </Router>
 };
 
