@@ -15,12 +15,14 @@
     border: 2px solid transparent;
     padding: 2rem;
     border-radius: 1.5rem;
+    display: flex;
     transition: var(--transition);
 }
 
 .contact__wrapper a:hover {
     background: transparent;
     border-color: var(--gray-color-100);
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 600px) {
